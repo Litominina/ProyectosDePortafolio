@@ -26,7 +26,7 @@ and continent IS NOT NULL
 ORDER BY 1,2;
 
 
---Buscar el total del casos vs la poblaciòn
+--Buscar el total del casos vs la poblaciÃ²n
 --Muestra que porcentaje de la poblacion se enfermo con covid
 
 SELECT location, date, population, total_cases, (total_cases/population)*100 as PorcentajePoblacionInfectada
